@@ -1,7 +1,7 @@
 #! perl -w
 
 use strict ;
-require 5.006 ;
+require 5.008 ;
 
 use lib '.';
 use private::MakeUtil;

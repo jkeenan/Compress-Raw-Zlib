@@ -29,7 +29,7 @@ installed on your system:
 
     * A C compiler
 
-    * Perl 5.006 or better.
+    * Perl 5.008 or better.
 
 By default, Compress-Raw-Zlib will build its own private copy of the
 zlib library. If you want to use a different version of
