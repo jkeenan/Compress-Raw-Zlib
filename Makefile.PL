@@ -65,9 +65,6 @@ EOM
 
 ParseCONFIG() ;
 
-UpDowngrade(getPerlFiles('MANIFEST'))
-    unless $ENV{PERL_CORE};
-
 my $OPT_Z_PREFIX =  '-DZ_PREFIX' ;
 my $OPT_ZLIB_INCLUDE = "-I$ZLIB_INCLUDE";
 my $OPT_ZLIB_LIB = "-L$ZLIB_LIB" ;
